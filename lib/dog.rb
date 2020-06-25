@@ -18,9 +18,9 @@ class Dog
   private
 
   def self.print_all
-           my_array = @@all.map do |dog|
-              dog.name
-          end
-          puts my_array
-      end
+    my_array = @@all.map do |dog|
+    dog.name
   end
+  puts my_array
+end
+end
