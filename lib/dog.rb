@@ -24,4 +24,3 @@ class Dog
           puts my_array
       end
   end
-end
