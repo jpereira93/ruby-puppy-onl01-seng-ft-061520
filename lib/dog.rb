@@ -16,7 +16,7 @@ class Dog
   end
 
   private
-  
+
   def self.print_all
            my_array = @@all.map do |dog|
               dog.name
