@@ -18,6 +18,10 @@ class Dog
   private
   
   def self.print_all
-    @@all.print
+           my_array = @@all.map do |dog|
+              dog.name
+          end
+          puts my_array
+      end
   end
 end
